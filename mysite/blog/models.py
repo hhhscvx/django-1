@@ -6,7 +6,7 @@ from django.contrib.auth.models import User
 class Post(models.Model):
     class Status(models.TextChoices):
         DRAFT = 'DF', 'Draft'  # Можно обращаться как Post.Status.choices(both)(like items)/labels(1)/values(DF, PB)
-        PUBLISHED = 'PB', 'Publishedddd'  # короче эта хуйня это буквально словарь (словарь = key, value)
+        PUBLISHED = 'PB', 'Published'  # короче эта хуйня это буквально словарь (словарь = key, value)
 
     title = models.CharField(max_length=250)
     slug = models.SlugField(max_length=250)

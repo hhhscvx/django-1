@@ -15,7 +15,8 @@ class Post(models.Model):
         PUBLISHED = 'PB', 'Published'  # короче эта хуйня это буквально словарь (словарь = key, value)
 
     title = models.CharField(max_length=250)
-    slug = models.SlugField(max_length=250)
+    slug = models.SlugField(max_length=250,
+                            unique_for_date='publish')  # Сверяет уникальность по Дате
     author = models.ForeignKey(User,
                                on_delete=models.CASCADE,
                                related_name='blog_posts')

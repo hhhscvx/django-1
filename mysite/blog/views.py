@@ -3,6 +3,7 @@ from .models import Post
 from django.core.paginator import Paginator, EmptyPage, \
     PageNotAnInteger  # Pag позволяет осуществлять постраничную разбивку результатов, дальше импортируем ошибки
 from django.views.generic import ListView
+from .forms import EmailPostForm
 
 
 def post_list(request):
@@ -31,6 +32,21 @@ def post_detail(request, year, month, day, post):
     return render(request,
                   'blog/post/detail.html',
                   {'post': post})
+
+
+def post_share(request, post_id):  # запрос и id поста
+    # Извлечь пост по id
+    post = get_object_or_404(Post, id=post_id, status=Post.Status.PUBLISHED)  # извлечегие из БД поста по id и published
+    if request.method == 'POST':  # POST -> форма отправлена на обработку
+        form = EmailPostForm(request.POST)  # обработка данных, введенных пользователем
+        if form.is_valid():  # формы введены корректно
+            cd = form.cleaned_data  # получение очищенных данных из формы (словарь полей формы и их значений)
+            # ... отправить эл. письмо
+    else:  # GET -> пользователь получил форму и должен ее заполнить -> она должна быть пустой
+        form = EmailPostForm()
+    return render(request,  # рендерит шаблон с передачей поста и экземпляра формы
+                  'blog/post/share.html',
+                  {'post': post, 'form': form})
 
 
 class PostListView(ListView):

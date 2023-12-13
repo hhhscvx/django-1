@@ -36,17 +36,31 @@ def post_detail(request, year, month, day, post):
 
 def post_share(request, post_id):  # запрос и id поста
     # Извлечь пост по id
-    post = get_object_or_404(Post, id=post_id, status=Post.Status.PUBLISHED)  # извлечегие из БД поста по id и published
+    post = get_object_or_404(Post,
+                             id=post_id,
+                             status=Post.Status.PUBLISHED)  # извлечегие из БД поста по id и published
+
+    sent = False
+
     if request.method == 'POST':  # POST -> форма отправлена на обработку
         form = EmailPostForm(request.POST)  # обработка данных, введенных пользователем
         if form.is_valid():  # формы введены корректно
             cd = form.cleaned_data  # получение очищенных данных из формы (словарь полей формы и их значений)
-            # ... отправить эл. письмо
+            post_url = request.build_absolute_uri(post.get_absolute_url())
+            subject = f"{cd['name']} recommends you read " \
+                      f"{post.title}"
+            message = f"Read {post.title} at {post_url}\n\n" \
+                      f"{cd['name']}\'s comments: {cd['comments']}"
+            send_mail(subject, message, 'ganichevkirill9@gmail.com',
+                      [cd['to']])
+            sent = True
     else:  # GET -> пользователь получил форму и должен ее заполнить -> она должна быть пустой
         form = EmailPostForm()
     return render(request,  # рендерит шаблон с передачей поста и экземпляра формы
                   'blog/post/share.html',
-                  {'post': post, 'form': form})
+                  {'post': post,
+                   'form': form,
+                   'sent': sent})
 
 
 class PostListView(ListView):

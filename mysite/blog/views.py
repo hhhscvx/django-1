@@ -4,6 +4,7 @@ from django.core.paginator import Paginator, EmptyPage, \
     PageNotAnInteger  # Pag позволяет осуществлять постраничную разбивку результатов, дальше импортируем ошибки
 from django.views.generic import ListView
 from .forms import EmailPostForm
+from django.core.mail import send_mail
 
 
 def post_list(request):
@@ -50,7 +51,7 @@ def post_share(request, post_id):  # запрос и id поста
             subject = f"{cd['name']} recommends you read " \
                       f"{post.title}"
             message = f"Read {post.title} at {post_url}\n\n" \
-                      f"{cd['name']}\'s comments: {cd['comments']}"
+                      f"{cd['name']}\'s comments: {cd['comment']}"
             send_mail(subject, message, 'ganichevkirill9@gmail.com',
                       [cd['to']])
             sent = True

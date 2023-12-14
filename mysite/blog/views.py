@@ -30,9 +30,13 @@ def post_detail(request, year, month, day, post):
                              publish__year=year,
                              publish__month=month,
                              publish__day=day)
+    comments = post.comments.filter(active=True)  # Я так понял тут мы обращаемся в ForeignKey модели comments -> фильтруем активные комментарии
+    form = CommentForm()  # Форма для комментирования пользователем
     return render(request,
                   'blog/post/detail.html',
-                  {'post': post})
+                  {'post': post,
+                   'comments': comments,
+                   'form': form})
 
 
 def post_share(request, post_id):  # запрос и id поста
@@ -79,7 +83,7 @@ def post_comment(request, post_id):
                              status=Post.Status.PUBLISHED)
     comment = None  # Если комментарий не был успешно сохранен, он будет иметь значение None
     # Комментарий был отправлен
-    form = CommentForm(data=request.POST)  # Создаем экземпляр используя данные POST запроса (отправленного комментария)
+    form = CommentForm(data=request.POST)  # В этот экземпляр мы передаем данные с формы из comment_form.html
     if form.is_valid():
         # Создать объект класса Comment, не сохраняя его в БД
         comment = form.save(commit=False)  # благодаря этому до окончательного сохранения мы можем изменять объект

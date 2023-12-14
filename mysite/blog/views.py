@@ -1,10 +1,10 @@
 from django.shortcuts import render, get_object_or_404
-from .models import Post
-from django.core.paginator import Paginator, EmptyPage, \
-    PageNotAnInteger  # Pag позволяет осуществлять постраничную разбивку результатов, дальше импортируем ошибки
+from .models import Post, Comment
+from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.views.generic import ListView
-from .forms import EmailPostForm
+from .forms import EmailPostForm, CommentForm
 from django.core.mail import send_mail
+from django.views.decorators.http import require_POST
 
 
 def post_list(request):
@@ -70,3 +70,23 @@ class PostListView(ListView):
     context_object_name = 'posts'
     paginate_by = 3
     template_name = 'blog/post/list.html'
+
+
+@require_POST  # Обработка только POST запросов
+def post_comment(request, post_id):
+    post = get_object_or_404(Post,
+                             id=post_id,
+                             status=Post.Status.PUBLISHED)
+    comment = None  # Если комментарий не был успешно сохранен, он будет иметь значение None
+    # Комментарий был отправлен
+    form = CommentForm(data=request.POST)  # Создаем экземпляр используя данные POST запроса (отправленного комментария)
+    if form.is_valid():
+        # Создать объект класса Comment, не сохраняя его в БД
+        comment = form.save(commit=False)  # благодаря этому до окончательного сохранения мы можем изменять объект
+        comment.post = post  # пост комментария это пост, под которым оставлен коммент, логичная хуйня
+        comment.save()  # сохраняем в БД
+    return render(request,
+                  'blog/post/comment.html',  # шаблон будет отображать все хуйни, переданные в context
+                  {'post': post,  # передает в шаблон пост, форму комментария и сам комментарий
+                   'form': form,
+                   'comment': comment})

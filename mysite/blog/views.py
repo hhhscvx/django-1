@@ -5,10 +5,15 @@ from django.views.generic import ListView
 from .forms import EmailPostForm, CommentForm
 from django.core.mail import send_mail
 from django.views.decorators.http import require_POST
+from taggit.models import Tag
 
 
-def post_list(request):
+def post_list(request, tag_slug=None):
     post_list = Post.published.all()
+    tag = None
+    if tag_slug:
+        tag = get_object_or_404(Tag, slug=tag_slug)  # Извлекается Тег с переданным tag_slug
+        post_list = post_list.filter(tags__in=[tag])
     paginator = Paginator(post_list, 3)  # разбивает список постов на страницы, содержащие по 3 поста каждая
     page_number = request.GET.get('page', 1)  # запрошенный номер страницы, если такой нет, то по умолчанию 1-ая стр.
     try:
@@ -20,7 +25,8 @@ def post_list(request):
         posts = paginator.page(paginator.num_pages)  # num_pages = число страниц -> будет как ласт страница
     return render(request,
                   'blog/post/list.html',
-                  {'posts': posts})
+                  {'posts': posts,
+                   'tag': tag})
 
 
 def post_detail(request, year, month, day, post):
@@ -30,7 +36,8 @@ def post_detail(request, year, month, day, post):
                              publish__year=year,
                              publish__month=month,
                              publish__day=day)
-    comments = post.comments.filter(active=True)  # Я так понял тут мы обращаемся в ForeignKey модели comments -> фильтруем активные комментарии
+    comments = post.comments.filter(
+        active=True)  # Я так понял тут мы обращаемся в ForeignKey модели comments -> фильтруем активные комментарии
     form = CommentForm()  # Форма для комментирования пользователем
     return render(request,
                   'blog/post/detail.html',
@@ -66,14 +73,6 @@ def post_share(request, post_id):  # запрос и id поста
                   {'post': post,
                    'form': form,
                    'sent': sent})
-
-
-class PostListView(ListView):
-    """Альтернативное представление списка постов"""
-    queryset = Post.published.all()
-    context_object_name = 'posts'
-    paginate_by = 3
-    template_name = 'blog/post/list.html'
 
 
 @require_POST  # Обработка только POST запросов

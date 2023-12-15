@@ -1,11 +1,11 @@
 from django.shortcuts import render, get_object_or_404
-from .models import Post, Comment
+from .models import Post
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
-from django.views.generic import ListView
 from .forms import EmailPostForm, CommentForm
 from django.core.mail import send_mail
 from django.views.decorators.http import require_POST
 from taggit.models import Tag
+from django.db.models import Count
 
 
 def post_list(request, tag_slug=None):
@@ -39,11 +39,20 @@ def post_detail(request, year, month, day, post):
     comments = post.comments.filter(
         active=True)  # Я так понял тут мы обращаемся в ForeignKey модели comments -> фильтруем активные комментарии
     form = CommentForm()  # Форма для комментирования пользователем
+
+    post_tags_ids = post.tags.values_list('id',
+                                          flat=True)  # получаем кортежи тегов по id (flat чтобы не [(1,), (2,)..), а [1, 2..]
+    similar_posts = Post.published.filter(tags__in=post_tags_ids).exclude(
+        id=post.id)  # В опубликованных постах ищем посты с хоть одним таким же тегом, исключая сам пост
+    similar_posts = similar_posts.annotate(same_tags=Count('tags')).order_by('-same_tags', '-publish')[
+                    :4]  # same tags считает кол-во одинаковых тегов и потом всё сортируется
+
     return render(request,
                   'blog/post/detail.html',
                   {'post': post,
                    'comments': comments,
-                   'form': form})
+                   'form': form,
+                   'similar_posts': similar_posts})
 
 
 def post_share(request, post_id):  # запрос и id поста

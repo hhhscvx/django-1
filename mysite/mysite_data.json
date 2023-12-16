@@ -1,0 +1,1589 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2023-12-10T12:14:06.767Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Я негр",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2023-12-11T07:55:19.712Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Я Негр",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Slug\", \"Body\", \"Publish\", \"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2023-12-11T07:55:49.459Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "ВТорой пост",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2023-12-11T08:15:24.858Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Я Негр",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2023-12-11T08:15:32.799Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Я Негр",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Publish\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2023-12-12T03:24:44.261Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "stray",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2023-12-12T03:25:08.979Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "stray",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Date joined\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2023-12-12T03:27:05.235Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Открываю хату",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2023-12-12T03:28:10.642Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "За гаражи",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2023-12-12T03:28:29.416Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Открываю хату",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2023-12-13T12:50:58.798Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Добрый вечер дамы и господа!!",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2023-12-13T12:51:33.240Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Петушиный пахан проснулся",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2023-12-13T12:53:36.558Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Comment by Undead on Добрый вечер дамы и господа!!",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2023-12-13T12:54:26.803Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Comment by Владимир on Петушиный пахан проснулся",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2023-12-15T11:45:34.531Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Петушиный пахан проснулся",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2023-12-15T11:45:42.087Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Добрый вечер дамы и господа!!",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2023-12-15T11:45:46.944Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Открываю хату",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2023-12-15T13:22:30.817Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "За гаражи",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2023-12-16T02:26:40.589Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "3",
+    "object_repr": "BMCHN",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2023-12-16T02:27:22.653Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "3",
+    "object_repr": "BMCHN",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Email address\", \"Date joined\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2023-12-16T02:35:51.107Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "НЕ ПОЛУЧАЕТСЯ «ПРОБИТЬ» МЫШЦУ?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2023-12-16T02:38:00.707Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "НЕ ПОЛУЧАЕТСЯ «ПРОБИТЬ» МЫШЦУ?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2023-12-16T02:42:16.359Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "ОДНА ДЕТАЛЬ ЗАПУСКАЕТ НЕОБРАТИМЫЙ ПРОЦЕСС",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2023-12-16T02:44:48.505Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "ДУШ В ТЕМНОТЕ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2023-12-16T02:45:37.662Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "НЕ ПОЛУЧАЕТСЯ «ПРОБИТЬ» МЫШЦУ?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2023-12-16T02:50:06.880Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "ОПОРНО–ДВИГАТЕЛЬНЫЙ АППАРАТ (ОДА)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2023-12-16T02:50:17.408Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "ДУШ В ТЕМНОТЕ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2023-12-16T02:50:33.123Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "ОДНА ДЕТАЛЬ ЗАПУСКАЕТ НЕОБРАТИМЫЙ ПРОЦЕСС",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2023-12-16T02:50:43.069Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "НЕ ПОЛУЧАЕТСЯ «ПРОБИТЬ» МЫШЦУ?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2023-12-16T02:51:20.419Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "12",
+    "object_repr": "ВНУТРЕННИЕ ОРГАНЫ (ВО)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2023-12-16T02:52:11.356Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "13",
+    "object_repr": "ЖИДКОСТНЫЕ СИСТЕМЫ (ЖС)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2023-12-16T03:29:36.829Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "14",
+    "object_repr": "Пост для практики markdown",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2023-12-16T03:31:03.603Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "14",
+    "object_repr": "Пост для практики markdown",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2023-12-16T03:31:42.857Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "14",
+    "object_repr": "Пост для практики markdown",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2023-12-16T05:03:51.399Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "localhost:8000",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2023-12-16T05:04:10.187Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "localhost:8000",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Display name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2023-12-16T05:27:02.413Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "14",
+    "object_repr": "Пост для практики markdown",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Publish\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 7,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 7,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 7,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 7,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 8,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 8,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 8,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 8,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 9,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 9,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 9,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 9,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 10,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 10,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 10,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 10,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add site",
+    "content_type": 11,
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change site",
+    "content_type": 11,
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete site",
+    "content_type": 11,
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view site",
+    "content_type": 11,
+    "codename": "view_site"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$NeH7DmFsPN32eC4sC3nSCB$2rSRkkFVWn78GCHdmlD/+mevQ58Mm+YfOL6daJgrKXo=",
+    "last_login": "2023-12-10T12:02:32.352Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@tuta.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-12-10T11:59:48.992Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$eNRG590HqAmoxVXVUGQ0Mq$c7eMqy/+uHoAcb+wh9N5NsPrJhwYZvjCA/oMc+UlHg0=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "stray",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-12-12T03:25:02Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$bC2HbBosunlQCnQP09LpQg$mrV6KuO0VNb2w29F9HEbR+ZZtRnWcFL3ljFbNqbPI2Y=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "BMCHN",
+    "first_name": "",
+    "last_name": "",
+    "email": "bmchn@support.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-12-16T02:27:11Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "blog",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "blog",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "sites",
+    "model": "site"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "yklfuqz3xs21qwp4c8ic8g5md28038mb",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pCODTC4dO8ZyAwMUjWQlHbVeHdt0oVu_3vvbyrQupSwdpnDlNRFgTr9bkzxKXUH6UH13nRsdZkn1ruiD9r1rSV5XQ_376BQL986o4uEQMay9zYx-sEIIA_ZIXOEjEhjzAKWYTRy9pQSZecs-igIRr0_-TI4gw:1rCIW0:-hnhtJw15rPUjQuUQgyRGXzStTy02CWKiusdiVLO1Wk",
+    "expire_date": "2023-12-24T12:02:32.396Z"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 1,
+  "fields": {
+    "title": "Я Негр",
+    "slug": "ya-negr",
+    "author": 1,
+    "body": "Замечательная информация и неграх; \r\nЗамечательная информация и неграх\r\nЗамечательная информация и неграх\r\nЗамечательная информация и неграх\r\nЗамечательная информация и неграх\r\nЗамечательная информация и неграх\r\nЗамечательная информация и неграх\r\nЗамечательная информация и неграх\r\nЗамечательная информация и неграх\r\nvЗамечательная информация и неграхЗамечательная информация и неграх\r\nЗамечательная информация и неграх\r\nЗамечательная информация и неграхЗамечательная информация и неграх\r\nЗамечательная информация и неграх\r\nЗамечательная информация и неграх",
+    "publish": "2023-12-10T08:15:31Z",
+    "created": "2023-12-10T12:14:06.710Z",
+    "updated": "2023-12-11T08:15:32.797Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 3,
+  "fields": {
+    "title": "ВТорой пост",
+    "slug": "vtoroj-post",
+    "author": 1,
+    "body": "ANYBODY",
+    "publish": "2023-12-11T07:55:47Z",
+    "created": "2023-12-11T07:55:49.456Z",
+    "updated": "2023-12-11T07:55:49.456Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 4,
+  "fields": {
+    "title": "Открываю хату",
+    "slug": "otkryvayu-hatu",
+    "author": 2,
+    "body": "Всем здарова!!В течение 15 минут открываю хату, готовьтесь правильно заходить 🐝",
+    "publish": "2023-12-12T03:26:52Z",
+    "created": "2023-12-12T03:27:05.165Z",
+    "updated": "2023-12-15T11:45:46.938Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 5,
+  "fields": {
+    "title": "За гаражи",
+    "slug": "za-garazhi",
+    "author": 2,
+    "body": "Здравствуйте уважаемые!!В течение 10 минут делаю прямое включение с места событий, надевайте трико и бегом за гаражи 💪💪💪",
+    "publish": "2023-12-12T03:28:06Z",
+    "created": "2023-12-12T03:28:10.640Z",
+    "updated": "2023-12-15T13:22:30.288Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 6,
+  "fields": {
+    "title": "Добрый вечер дамы и господа!!",
+    "slug": "dobryj-vecher-damy-i-gospoda",
+    "author": 2,
+    "body": "Добрый вечер дамы и господа!!В течение 10 минут включаю телевизор, буду показывать ебаря в компьютерной игре дота2 😉",
+    "publish": "2023-12-13T12:50:51Z",
+    "created": "2023-12-13T12:50:58.756Z",
+    "updated": "2023-12-15T11:45:42.080Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 7,
+  "fields": {
+    "title": "Петушиный пахан проснулся",
+    "slug": "petushinyj-pahan-prosnulsya",
+    "author": 2,
+    "body": "Приветствую!!Пахан проснулся и в течение 10 минут готов запускать вас в хату, готовьтесь правильно заходить и присаживайтесь рядом 👌",
+    "publish": "2023-12-13T12:51:30Z",
+    "created": "2023-12-13T12:51:33.238Z",
+    "updated": "2023-12-15T11:45:34.485Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 8,
+  "fields": {
+    "title": "НЕ ПОЛУЧАЕТСЯ «ПРОБИТЬ» МЫШЦУ?",
+    "slug": "ne-poluchaetsya-probit-myshcu",
+    "author": 3,
+    "body": "От чего это зависит? На прошлой тренировке отлично чувствовалась группа мышц после выполнения упражнения, а на этой — нет...\r\n\r\nТакое случается и у опытных атлетов, и обычно дело в одном из двух:\r\n\r\n🔴ЦНС не успела восстановиться\r\n\r\nВозможно, тот режим тренировок, который вы для себя выбрали, слишком оптимистичен — тело не успевает восстановиться в указанный промежуток.\r\n\r\nТогда на тренировке нервные импульсы в мышцах будут идти слабее, что приводит к менее качественной проработке и, как следствие, слабым ощущениям и отклику.\r\n\r\n🔴Недостаточные паузы на самой тренировке\r\n\r\nТо же самое, но локально: времени отдыха между подходами, которого вы придерживаетесь, может не хватать вашим мышцам.\r\n\r\nЭто приводит к избыточному накоплению молочной кислоты и переутомлению той же ЦНС.\r\n\r\nВ такой ситуации вы физически неспособны хорошо прочувствовать мышцу в следующем подходе.\r\n\r\nЧто делать?\r\n\r\nПопробуйте увеличить интервалы отдыха между подходами или же выполнить вариацию круговой тренировки. \r\n\r\nНапример, 1 подход жима лёжа, затем 1 подход на пресс, после чего снова возвращаетесь к жиму лёжа — и так далее.\r\n\r\nМожно составить цикл и более чем из 2 упражнений.\r\n\r\nТаким образом, времени между подходами одного и того же упражнения станет достаточно для выведения излишков метаболитов мышечной деятельности и приведения ЦНС в боевую готовность.\r\n\r\nПопробуйте оба варианта.\r\n\r\nПрислушивайтесь к ощущениям, чтобы понять, что для вас работает лучше: последовательная тренировка с увеличенными интервалами отдыха или круговая.\r\n\r\n🟡Помните, что мы все индивидуальны.\r\n\r\nГрамотный отдых — залог мышечного роста и здоровья. Как на тренировке, так и за её пределами.",
+    "publish": "2023-12-16T02:34:40Z",
+    "created": "2023-12-16T02:35:51.073Z",
+    "updated": "2023-12-16T02:50:43.061Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 9,
+  "fields": {
+    "title": "ОДНА ДЕТАЛЬ ЗАПУСКАЕТ НЕОБРАТИМЫЙ ПРОЦЕСС",
+    "slug": "odna-detal-zapuskaet-neobratimyj-process",
+    "author": 3,
+    "body": "Эта деталь — навык внедрения привычек.\r\n\r\nЕсли этого нет, то контроль изменений в нашей жизни очень посредственный. \r\n\r\nГлавный симптом слабой развитости этого навыка — движение рывками: интенсивные изменения, затем откаты назад.\r\n\r\nДолгосрочные результаты так не делаются.\r\n\r\nОни делаются диффузными поступательными шагами. Мелкими, но регулярными.\r\n\r\nВ среднем, около 40-45% дня человек проводит на автопилоте, даже незаметно для себя.\r\n\r\nДелая резкие изменения в жизни, мы забываем перепрограммировать автоматизмы. Отсюда и откаты — вдохновение и мотивация недолговечны.\r\n\r\nПолагаться на удачу — не наш вариант.\r\n\r\nКритическая масса осознанно внедрённых привычек, со временем суммируясь и синергируя, задаёт квантовый пинок.\r\n\r\nПинок в какую сторону — каждый решает сам.\r\n\r\nПервая грамотно и успешно внедрённая привычка даст нужный фундамент.\r\n\r\nДальше остальные элементы домино будут передавать энергию друг другу, пока трансформация не завершится.\r\n\r\nВ Кузнице Утра (https://t.me/morningmachine) запостили рабочую рекомендацию, как быстрее и легче внедрить привычку. Возможно, вы о такой не знали.\r\n\r\nПомните, на что способен всего один взмах крыльев бабочки?..",
+    "publish": "2023-12-16T02:41:37Z",
+    "created": "2023-12-16T02:42:16.350Z",
+    "updated": "2023-12-16T02:50:33.116Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 10,
+  "fields": {
+    "title": "ДУШ В ТЕМНОТЕ",
+    "slug": "dush-v-temnote",
+    "author": 3,
+    "body": "За ~1.5 часа до отхода ко сну горячие водные процедуры способствуют расслаблению и лучшему засыпанию.\r\n\r\n*️⃣Важно: непосредственно перед сном они могут вызвать гиперстимуляцию ЦНС — рассчитывайте время.\r\n\r\nЧтобы не тормозить синтез мелатонина, лучше проводить процедуры без света.\r\n\r\nИ вообще, минимизировать свет в помещениях.\r\n\r\nИначе зачем было исхитряться с ночным режимом на экранах гаджетов и с инфракрасными лампами?..\r\n\r\n🤚Соблюдайте технику безопасности, особенно в душевой: чтобы не включать свет, но сохранить темноту, лучше всего подойдёт свеча.\r\n\r\nИли, в крайнем случае, фонарик на смартфоне, направленный в ткань или светом вниз.\r\n\r\nПроверено на практике — расслабляет очень круто.",
+    "publish": "2023-12-16T02:43:43Z",
+    "created": "2023-12-16T02:44:48.493Z",
+    "updated": "2023-12-16T02:50:17.400Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 11,
+  "fields": {
+    "title": "ОПОРНО–ДВИГАТЕЛЬНЫЙ АППАРАТ (ОДА)",
+    "slug": "opornodvigatelnyj-apparat-oda",
+    "author": 3,
+    "body": "Недавно мы проводили опрос:\r\nиз 14 000+ голосов, почти 40% людей проводят сидя более 8ч в день (https://t.me/bmchn/383). \r\n\r\nГиподинамия — это враг №1, здесь и без опросов никто спорить не станет.\r\n\r\nЛьвиная доля проблем современного человека из-за того, что он \"сел\".\r\nУдобно и надолго :)\r\n\r\nОтсюда: дисбаланс в развитии мышечного аппарата, недостаток питания суставов, искривления и перекосы etc.\r\n\r\n😃Банально, если у вас искривлена шея (а это бич цивилизации, смотрящей в телефон), то постоянная нагрузка на шейные позвонки и мышцы возрастает в несколько раз. Вы носите на голове несколько кирпичей. Каждый день.\r\n\r\nБонусом — шейный отдел позвоночника хуже начинает компенсировать ударную нагрузку, которая приходится на каждое ваше движение, а значит — быстрее изнашивается.\r\n\r\nИ это размышления только в плоскости позвонков. Как минимум, питание головного мозга тоже может снижаться.\r\n\r\nЗдесь необходима специализированная ЛФК, а также желателен хороший специалист, который поможет \"поправить\" ваш эндоскелет. \r\n\r\nЗапоминаем, три базовых шага к здоровью своего ОДА:\r\n\r\n🔘 \"Выправить\" ОДА в состояние нормы с помощью специалиста\r\n🔘 Начать просто больше двигаться (ходьба или другие циклические активности)\r\n🔘 Добавить больше разнообразия движений и нагрузок\r\n\r\nИ если 1 пункт требует отдельного разговора, то 2 и 3, казалось бы, каждый из нас и так закрывает?\r\n\r\nТренажерный зал 3 раза в неделю, 10 тысяч шагов каждый день и я, в общем-то, здоров?\r\n\r\nЕдва ли.\r\n\r\nДаже если предположить, что мы умеем правильно ходить (а этому нужно учиться) и соблюдаем технику упражнений — это очень \"узкие\" виды нагрузки.\r\n\r\nЧтобы полноценно поддерживать здоровье костей, суставов, сухожилий, мышц и связок, нам важно давать им весь спектр движений и нагрузок, для которых они созданы.\r\n\r\nПоэтому наша физическая активность должна быть разной.\r\n\r\nС точки зрения нагрузки, амплитуды, сопротивления, жесткости, скорости и прочих параметров.\r\n\r\nКонечно, здесь важно соблюсти баланс и найти оптимум, иначе есть риск разорваться между посещением десятка разных секций.",
+    "publish": "2023-12-16T02:49:16Z",
+    "created": "2023-12-16T02:50:06.865Z",
+    "updated": "2023-12-16T02:50:06.865Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 12,
+  "fields": {
+    "title": "ВНУТРЕННИЕ ОРГАНЫ (ВО)",
+    "slug": "vnutrennie-organy-vo",
+    "author": 3,
+    "body": "Мир внутренних органов человека будет поприкольней Пандоры.\r\nЦелой жизни не хватит, если пытаться изучить каждый из них. Но для наших целей это и не требуется.\r\n\r\nМы бы сравнили ВО с самой продвинутой и технологичной фабрикой (заводом), которая только существует на этой планете.\r\n\r\nИ каждый из нас является его обладателем.\r\n\r\nЛадно, от лирики — к практике. \r\nРассмотрим те ВО, на которые мы можем максимально повлиять с помощью физических упражнений.\r\n\r\nСамыми \"отзывчивыми\" оказываются органы брюшной полости.\r\n\r\n🟢Факт №1 — органы подвижны.\r\nИ двигаются с каждым нашим движением.\r\nЕсли мы лишим их этого, то могут возникнуть проблемы.\r\n\r\n🟢Факт №2 — диафрагма решает.\r\nОна делает прямой массаж органов с каждым вдохом-выдохом.\r\n~20 000 массажных воздействий в день.\r\nИ если мы правильно дышим (чёрт возьми, мы и это, что ли, делаем неправильно?), задействуя диафрагму – нашим органам брюшной полости хорошо.\r\n\r\nОстановимся на этих двух фактах.\r\n\r\nОни помогут нам понять, как заботиться о своих ВО. Ведь проблемы с органами брюшной полости и пищеварением в частности растут в геометрической прогрессии и влияют на весь организм. \r\n\r\nИнструментарий, который мы разберем, в первую очередь помогает именно в этом. \r\n\r\nИтак, погнали:\r\n\r\n1. И опять разнообразные движения. \r\n\r\n😃Желательно, включающие в себя повороты, вращения туловища, наклоны, растяжения передней брюшной стенки. Просто садиться в тренажер и двигать его туда–обратно не подойдет.\r\n\r\n2. Массаж ВО\r\n\r\n😃Об этой киллер-фиче мы говорим достаточно давно и актуальности она не потеряла. Аккуратные массажные воздействия и легкое давление на органы брюшины очень хорошо помогают поддерживать их функциональность.\r\n\r\n3. Диафрагмальное дыхание\r\n\r\n😃Научиться правильно дышать диафрагмой — это один из ключевых навыков к освоению. Если вы ещё не занялись этим, то самое время. Тем более, это не так сложно, а пользы приносит целый вагон.\r\n\r\nСобрав это трио и внедрив на постоянной основе в свою жизнь, вы значительно улучшите самочувствие и общее состояние здоровья. \r\n\r\nВедь в нашей Биомашине всё взаимосвязано.",
+    "publish": "2023-12-16T02:51:02Z",
+    "created": "2023-12-16T02:51:20.406Z",
+    "updated": "2023-12-16T02:51:20.406Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 13,
+  "fields": {
+    "title": "ЖИДКОСТНЫЕ СИСТЕМЫ (ЖС)",
+    "slug": "zhidkostnye-sistemy-zhs",
+    "author": 3,
+    "body": "Сегодня поговорим о живительной силе, которая питает и даёт жизнь всему в нашем теле. И как мы можем ей помочь.\r\n\r\nИгра идет на уровне клеток.\r\nА клетка — это деталь, из которой строится всё в нашем теле.\r\n\r\nИ то, как будет питаться клетка — критически важный вопрос.\r\n\r\nСегодня мы затронем 4 жидкости, роль которых сложно переоценить.\r\n\r\nТРИО КРОВЬ–МЕЖКЛЕТОЧНАЯ ЖИДКОСТЬ–ЛИМФА:\r\n🔵Непрерывно взаимодействуют и трансформируются друг в друга\r\n🔵Обеспечивают циркуляцию жизненно важных элементов и отведение метаболических отходов к местам их переработки и удаления\r\n\r\nСИНОВИАЛЬНАЯ ЖИДКОСТЬ:\r\n🔵Питает и смазывает все суставы в нашем теле, предотвращая их изнашивание\r\n\r\nВ чём проблема с ними?\r\nИ ответ всё тот же: мы не двигаемся.\r\n\r\nОснова их нормального функционирования: регулярная мышечная работа, вибровоздействия (от тех же движений), полноценное движение суставов.\r\n\r\nИ если вы читали предыдущие посты — вы на правильном пути.\r\nПросто продолжайте двигаться в этом же направлении.\r\n\r\nДобавим лишь пару дополнительных фич, которые помогут нашим крово- и лимфотоку:\r\n\r\n🟢Больше циклической работы\r\nПродолжительная и непрерывная работа вроде скандинавской ходьбы или пробежки трусцой. \r\nМинимум: 1 раз в неделю от 1,5 часов или 3 раза в неделю по 30 минут\r\nВажно поддерживать эту активность, как огонь. Без тормозов и остановок. \r\nКак паровоз. Циклично, чётко, продолжительно. \r\n\r\n🟢Не забывайте, что очень мощный \"насос\" крови и лимфы в нашем теле — это мышцы\r\nЧем мышца крупнее — тем больший вклад она вносит в их \"прокачку\". \r\nПоэтому задействуя мышцы ног, ягодиц, спины, пресса — мы максимально этому способствуем. \r\n\r\n🟢В области брюшной полости находится средоточие лимфатических и кровеносных сосудов\r\nУпражнения на пресс, вакуум, массаж внутренних органов, правильное диафрагмальное дыхание, в том числе — значительно помогают движению этих жидкостей.\r\n\r\n🟢Виброплатформа\r\nЭто прекрасный домашний тренажер, который станет отличным дополнением ко всему вышеперечисленному.\r\nМы в команде используем его каждый день во время зарядки.",
+    "publish": "2023-12-16T02:51:26Z",
+    "created": "2023-12-16T02:52:11.345Z",
+    "updated": "2023-12-16T02:52:11.345Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 14,
+  "fields": {
+    "title": "Пост для практики markdown",
+    "slug": "post-dlya-praktiki-markdown",
+    "author": 1,
+    "body": "This is a post formatted with markdown\r\n----------------------------------------------------------------\r\n\r\n*Thig is emphasized* and **this is more emphasized**.\r\n\r\nHere is a list:\r\n\r\n- One\r\n- Two\r\n- Three\r\n\r\nAnd a [link to the Django website](https://django.fun/docs/django/4.1/)",
+    "publish": "2023-12-16T02:26:30Z",
+    "created": "2023-12-16T03:29:36.818Z",
+    "updated": "2023-12-16T05:27:02.345Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 1,
+  "fields": {
+    "post": 6,
+    "name": "Undead",
+    "email": "hui@znaet.com",
+    "body": "Который тебя ебать будет?)",
+    "created": "2023-12-13T12:53:36.557Z",
+    "updated": "2023-12-13T12:53:36.557Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 2,
+  "fields": {
+    "post": 7,
+    "name": "Владимир",
+    "email": "vladimir@mail.ru",
+    "body": "Петушиная хата не в почете, спс",
+    "created": "2023-12-13T12:54:26.802Z",
+    "updated": "2023-12-13T12:54:26.802Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 3,
+  "fields": {
+    "post": 6,
+    "name": "hhhscvx",
+    "email": "ganichevkirill9@gmail.com",
+    "body": "ахахах",
+    "created": "2023-12-14T09:39:41.136Z",
+    "updated": "2023-12-14T09:39:41.136Z",
+    "active": true
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "info",
+    "slug": "info"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "bout_niggas",
+    "slug": "bout_niggas"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "stray",
+    "slug": "stray"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "развитие",
+    "slug": "развитие"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 5,
+  "fields": {
+    "name": "bmchn",
+    "slug": "bmchn"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 6,
+  "fields": {
+    "name": "self-improvement",
+    "slug": "self-improvement"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 7,
+  "fields": {
+    "name": "procedures",
+    "slug": "procedures"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 8,
+  "fields": {
+    "name": "training",
+    "slug": "training"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 9,
+  "fields": {
+    "name": "health",
+    "slug": "health"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 10,
+  "fields": {
+    "name": "organism",
+    "slug": "organism"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 11,
+  "fields": {
+    "name": "test",
+    "slug": "test"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 1,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 2,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 3,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 7
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 6
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 6,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 5
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 9,
+  "fields": {
+    "tag": 5,
+    "content_type": 7,
+    "object_id": 8
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 10,
+  "fields": {
+    "tag": 6,
+    "content_type": 7,
+    "object_id": 8
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 12,
+  "fields": {
+    "tag": 5,
+    "content_type": 7,
+    "object_id": 9
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 13,
+  "fields": {
+    "tag": 6,
+    "content_type": 7,
+    "object_id": 9
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 15,
+  "fields": {
+    "tag": 5,
+    "content_type": 7,
+    "object_id": 10
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 16,
+  "fields": {
+    "tag": 6,
+    "content_type": 7,
+    "object_id": 10
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 17,
+  "fields": {
+    "tag": 7,
+    "content_type": 7,
+    "object_id": 10
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 18,
+  "fields": {
+    "tag": 8,
+    "content_type": 7,
+    "object_id": 8
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 19,
+  "fields": {
+    "tag": 9,
+    "content_type": 7,
+    "object_id": 11
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 20,
+  "fields": {
+    "tag": 10,
+    "content_type": 7,
+    "object_id": 11
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 21,
+  "fields": {
+    "tag": 5,
+    "content_type": 7,
+    "object_id": 11
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 22,
+  "fields": {
+    "tag": 6,
+    "content_type": 7,
+    "object_id": 11
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 23,
+  "fields": {
+    "tag": 9,
+    "content_type": 7,
+    "object_id": 12
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 24,
+  "fields": {
+    "tag": 10,
+    "content_type": 7,
+    "object_id": 12
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 25,
+  "fields": {
+    "tag": 5,
+    "content_type": 7,
+    "object_id": 12
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 26,
+  "fields": {
+    "tag": 6,
+    "content_type": 7,
+    "object_id": 12
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 27,
+  "fields": {
+    "tag": 9,
+    "content_type": 7,
+    "object_id": 13
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 28,
+  "fields": {
+    "tag": 10,
+    "content_type": 7,
+    "object_id": 13
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 29,
+  "fields": {
+    "tag": 5,
+    "content_type": 7,
+    "object_id": 13
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 30,
+  "fields": {
+    "tag": 6,
+    "content_type": 7,
+    "object_id": 13
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 31,
+  "fields": {
+    "tag": 11,
+    "content_type": 7,
+    "object_id": 14
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "localhost:8000",
+    "name": "localhost:8000"
+  }
+}
+]

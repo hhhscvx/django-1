@@ -1,4 +1,5 @@
 {% extends "blog/base.html" %}
+{% load blog_tags %}
 
 {% block title %}My Blog{% endblock %}
 
@@ -25,7 +26,7 @@
     <p class="date">
       Published {{ post.publish }} by {{ post.author }}
     </p>
-    {{ post.body|truncatewords:120|linebreaks }}
+    {{ post.body|markdown|truncatewords_html:50 }}
   {% endfor %}
   {% include "pagination.html" with page=posts %}  <!-- page будет доступна в шаблоне и будет содержать указанное, в данном случае из страницы постов -->
 {% endblock %}

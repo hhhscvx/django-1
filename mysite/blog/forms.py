@@ -13,4 +13,4 @@ class EmailPostForm(forms.Form):
 class CommentForm(forms.ModelForm):
     class Meta:  # Связывает форму с моделью
         model = Comment  # поля формы будут отображать поля Модели Comment
-        fields = ['name', 'email', 'body']  # поля формы, которые будут отображаться
+        fields = ['name', 'body']  # поля формы, которые будут отображаться

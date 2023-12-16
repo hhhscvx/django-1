@@ -10,7 +10,7 @@ class PostAdmin(admin.ModelAdmin):
     prepopulated_fields = {'slug': ('title',)}  # при создании поста slug автоматически заполняется как title
     raw_id_fields = ['author']  # при создании поста добавляется поиск авторов для упрощения жизни
     date_hierarchy = 'publish'
-    ordering = ['status', 'publish']  # сортировка по умолчанию
+    ordering = ['-publish']  # сортировка по умолчанию
 
 
 @admin.register(Comment)
